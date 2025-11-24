@@ -1,0 +1,8 @@
+spacy==3.8.8
+en-core-web-lg==3.8.0
+pandas
+networkx
+wordcloud
+matplotlib
+flask
+

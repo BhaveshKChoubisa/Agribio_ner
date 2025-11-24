@@ -1,0 +1,35 @@
+cd G:\My Drive\5. Research\2. Phd Research\3.0 Research\NER\Web_tool_NER\Agribio_ner
+
+G:
+
+git init
+
+git rm -r --cached .
+git add .
+git commit -m "Apply .gitignore rules and initial commit"
+
+
+create manually .gitignore file
+then paste
+
+*.pyc
+__pycache__/
+env/
+.venv/
+venv/
+Lib/
+lib/
+site-packages/
+.env
+*.db
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+
+
+git remote add origin https://github.com/BhaveshKChoubisa/Agribio_ner.git
+
+git push -u origin main
+
+
