@@ -24,7 +24,7 @@ if not os.path.exists(UPLOAD_FOLDER):
 os.makedirs(STATIC_FOLDER, exist_ok=True)
 
 # Load your trained spaCy model (update the path accordingly)
-model_directory = 'G:/My Drive/5. Research/2. Phd Research/3.0 Research/NER/Web_tool_NER/Agribio_ner/model-best_spacy_lg_NER_bnry1'
+model_directory = os.path.join(os.path.dirname(__file__), "models/model-best_spacy_lg_NER_bnry1")
 nlp = spacy.load(model_directory)
 
 @app.route('/')
