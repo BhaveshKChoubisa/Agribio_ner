@@ -2,6 +2,8 @@ cd G:\My Drive\5. Research\2. Phd Research\3.0 Research\NER\Web_tool_NER\Agribio
 
 G:
 
+
+
 git init
 
 git rm -r --cached .
@@ -30,6 +32,6 @@ site-packages/
 
 git remote add origin https://github.com/BhaveshKChoubisa/Agribio_ner.git
 
-git push -u origin main
+git push -u origin master
 
 
